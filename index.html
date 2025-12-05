@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Sign Up – ClubHub</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="favicon.png" rel="icon" type="image/png" />
+</head>
+
+<body>
+
+
+<main class="container" style="max-width: 600px; padding-top: 40px; padding-bottom: 60px;">
+
+    <h2>Sign Up</h2>
+    <p>Create an account to stay connected and track your fitness journey at UFV.</p>
+
+    <form>
+
+        <div class="form-group">
+            <label><b>Full Name</b></label>
+            <input type="text" class="form-control" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+            <label><b>Email Address</b></label>
+            <input type="email" class="form-control" placeholder="example@ufv.ca" required>
+        </div>
+
+        <div class="form-group">
+            <label><b>Password</b></label>
+            <input type="password" class="form-control" placeholder="Create a password" required>
+        </div>
+
+        <div class="form-group">
+            <label><b>Fitness Goal</b></label>
+            <select class="form-control">
+                <option>Improve stamina</option>
+                <option>Run every Saturday</option>
+                <option>Lose weight</option>
+                <option>Gain muscle</option>
+                <option>Stay active</option>
+            </select>
+        </div>
+
+<a href="next.html" class="btn btn-success btn-block" style="padding: 12px; font-size: 18px;">Create Account</a>
+
+    </form>
+
+    <br>
+    <p>Already have an account? <a href="#">Log in</a></p>
+
+</main>
+
+<footer class="container">
+    <p>Made by Navpreet</p>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script>
+    $('.toggle').click(function() {
+      $('.navbar').toggleClass('open');
+    });
+</script>
+
+</body>
+</html>
